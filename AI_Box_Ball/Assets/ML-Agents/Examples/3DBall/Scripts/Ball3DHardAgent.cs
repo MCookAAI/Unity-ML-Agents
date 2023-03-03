@@ -1,6 +1,7 @@
 using UnityEngine;
 using Unity.MLAgents;
 using Unity.MLAgents.Sensors;
+using Unity.MLAgents.Actuators;  //Added to fix upgrade error
 
 public class Ball3DHardAgent : Agent
 {
